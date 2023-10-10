@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(136, 0, 136);
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pruds {
+    width: 140px;
+    border-radius: 20%;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+header nav ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+h1 {
+    padding: 30px;
+}
+
+p {
+    padding: 10px;
+}
+
+.textimg {
+    display: flex;
+}
+
+div p {
+    display: flex;
+    text-align:justify;
+    font-size:large;
+    padding: 10px 50px 0px 20px;
+}
+
+.pruds_sax {
+    width: 400px;
+    padding: 0px 0px 0px 50px;
+    border: solid 4px white;
+    border-radius: 10%;
+}
+
+header nav ul li:hover {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.linkedin {
+    width: 100px;
+    padding: 20px;
+}
+
+.github {
+    width: 100px;
+    padding: 20px;
+}
+
+footer {
+    background-color:  rgb(136, 0, 136);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer div ul li {
+    padding: 3px;
+}
+
